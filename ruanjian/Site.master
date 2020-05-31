@@ -46,6 +46,7 @@
       </div>
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
+      <% if (Session["cx"] == "管理员") { %> 
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
@@ -178,7 +179,80 @@
           <i class="fas fa-comments"></i>
           <span>Message Board</span></a>
       </li>
+      <% } else { %> 
+         <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed d-flex justify-content-between href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse6">
+                <div class="d-flex align-items-center">
+                <i class="fas fa-lock mr-2"></i>
+                <span><small>Personal Data Management</small></span>
+                </div>
+            </a>
+            <div id="collapse1" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Change Password" href="TMod.aspx"><small>Change Password</small></a>
+                </div>
+            </div>
+        </li>
+        <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed d-flex justify-content-between href="#" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse6">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-clock mr-2"></i>
+            <span><small>Timetable query</small></span>
+          </div>
+        </a>
+        <div id="collapse2" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Timetable query" href="SKeBiao_List.aspx"><small>Timetable query</small></a>
+          </div>
+        </div>
+      </li>
+        <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed d-flex justify-content-between href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse6">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-users mr-2"></i>
+            <span><small>Teacher information</small></span>
+          </div>
+        </a>
+        <div id="collapse3" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Teacher information" href="STeacher_List.aspx"><small>Teacher information</small></a>
+          </div>
+        </div>
+      </li>
+        <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed d-flex justify-content-between href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse6">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-ruler mr-2"></i>
+            <span><small>Other queries</small></span>
+          </div>
+        </a>
+        <div id="collapse4" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Teaching achievement" href="YChengGuoList.aspx"><small>Teaching achievement</small></a>
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Rules and regulations" href="YGongGaoList.aspx"><small>Rules and regulations</small></a>
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="Research project" href="YKeYanList.aspx"><small>Research project</small></a>
+            <a class="collapse-item text-truncate" data-toggle="tooltip" data-placement="top" title="File download" href="YWenJian_List.aspx"><small>File download</small></a>
+          </div>
+        </div>
+      </li>
 
+        <!-- Divider -->
+      <hr class="sidebar-divider">
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Addons
+      </div>
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="MessageBoard.aspx">
+          <i class="fas fa-comments"></i>
+          <span>Message Board</span></a>
+      </li>
+      <% } %> 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
     </ul>
@@ -198,7 +272,7 @@
             <i class="fa fa-bars"></i>
           </button>
 
-          <h4>Teacher Information Management System</h4>
+          <h4>Archives Management System for University Teachers</h4>
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">

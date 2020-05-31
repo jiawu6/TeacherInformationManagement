@@ -31,7 +31,7 @@ body {
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="d5d4d4" >
   <tr>
     <td height="22" colspan="4" background="images/bg.gif" bgcolor="#FFFFFF" class="STYLE3"><div align="center">
-        Teacher Information Management System</div></td>
+        Archives Management System for University Teachers</div></td>
   </tr>
   <tr>
     <td colspan="4" bgcolor="#FFFFFF" class="STYLE1" style="height: 15px" align="center">

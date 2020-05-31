@@ -14,15 +14,15 @@
             text-align: center;
         }
     </style>
-    <link href="G:\Teacher Information Management System/system_dntb/skin/default/toolbar.css" rel="stylesheet"
+    <link href="G:\Archives Management System for University Teachers/system_dntb/skin/default/toolbar.css" rel="stylesheet"
         type="text/css" />
-    <link href="G:\Teacher Information Management System/system_dntb/skin/default/toolbar.css" rel="stylesheet"
+    <link href="G:\Archives Management System for University Teachers/system_dntb/skin/default/toolbar.css" rel="stylesheet"
         type="text/css" />
-    <link href="G:\Teacher Information Management System/system_dntb/skin/default/toolbar.css" rel="stylesheet"
+    <link href="G:\Archives Management System for University Teachers/system_dntb/skin/default/toolbar.css" rel="stylesheet"
         type="text/css" />
-    <link href="G:\Teacher Information Management System/system_dntb/skin/default/toolbar.css" rel="stylesheet"
+    <link href="G:\Archives Management System for University Teachers/system_dntb/skin/default/toolbar.css" rel="stylesheet"
         type="text/css" />
-    <link href="G:\Teacher Information Management System/system_dntb/skin/default/toolbar.css" rel="stylesheet"
+    <link href="G:\Archives Management System for University Teachers/system_dntb/skin/default/toolbar.css" rel="stylesheet"
         type="text/css" />
 </head>
 <body>
